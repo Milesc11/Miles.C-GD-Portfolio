@@ -2,16 +2,16 @@
 [data-theme="dark"],
 .dark {
   /* Primary Brand Colors (Flowing Orange) */
-  --accent: #FF8A4C;
-  --accent-dark: #F97316;
-  --accent-rgb: 255, 138, 76;
+  --accent: #4cbeed;
+  --accent-dark: #8f7fbb;
+  --accent-rgb: 77, 190, 238;
 
   /* Neutral Colors */
   --black: 255, 255, 255;
   --gray: 171, 178, 191;
   --gray-light: 40, 44, 52;
   --gray-dark: 220, 223, 228;
-  --background: #050505;
+  --background: #002e3e;
 
   /* Semantic Color Tokens */
   --color-text-primary: rgb(var(--black));
@@ -51,9 +51,9 @@
   --card-foreground: rgb(243, 244, 246);
   --popover: #282c34;
   --popover-foreground: rgb(243, 244, 246);
-  --primary: #FF8A4C;
+  --primary: #4cbeed;
   --primary-foreground: #0f1219;
-  --secondary: #FFB36B;
+  --secondary: #8f7fbb;
   --secondary-foreground: rgb(243, 244, 246);
   --muted: rgba(255, 255, 255, 0.06);
   --muted-foreground: rgb(171, 178, 191);
@@ -70,7 +70,7 @@
   /* Slightly softer borders on translucent surfaces */
   --border: var(--surface-300);
   --input: var(--surface-300);
-  --outline: #F97316;
+  --outline: #4cbeed;
 }
 
 
