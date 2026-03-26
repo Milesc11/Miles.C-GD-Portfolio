@@ -13,7 +13,7 @@ export const projects = [
 		techStack: "Adobe Illustrator",
 		description: "A Poster design for pan-american music initiative concerts in the Walt Disney Concert Hall.",
 		ctaText: "Read Case Study →",
-		ctaLink: "#",
+		ctaLink: "src/pages/Projects/Project_1.astro",
 		icon: Logo
 	},
 	{
