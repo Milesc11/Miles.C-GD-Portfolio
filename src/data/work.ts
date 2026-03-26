@@ -11,7 +11,7 @@ export const workIcons = {
 
 export const work = [
   {
-    title: "Senior Software Engineer",
+    title: "Senior Graphic Designer",
     company: "Acme Cloud",
     region: "United States",
     description:
