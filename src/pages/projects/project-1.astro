@@ -1,0 +1,39 @@
+---
+import BaseHead from "/src/components/BaseHead.astro";
+import Header from "/src/components/sections/Header.astro";
+import Footer from "/src/components/sections/Footer.astro";
+import Projects from "/src/components/sections/Projects.astro";
+import HeroSection from "/src/components/sections/HeroSection.astro";
+import GlowLineSeparator from "/src/components/ui/separator/GlowLineSeparator.astro";
+---
+
+
+<html lang="en" data-theme="dark" class="dark">
+  <head>
+    <BaseHead title="Project 1" description="Selected projects and playbooks" />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <HeroSection title="Pan-American Music Initiative Concerts" subtitle="A Poster design for pan-american music initiative concerts in the Walt Disney Concert Hall." />
+      <GlowLineSeparator />
+      <div class="project-content">
+      <img src="/public/project-1-poster.png" alt="Project 1 poster">
+      </div>
+      <GlowLineSeparator />
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+.project-content > img {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+</style>
+
