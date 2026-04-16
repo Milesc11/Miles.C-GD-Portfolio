@@ -21,7 +21,7 @@ export const projects = [
 		techStack: "Adobe After Effects • Adobe Illustrator",
 		description: "A magazine spread design on laziness decoded and how to be lazy.",
 		ctaText: "Read Case Study →",
-		ctaLink: "#",
+		ctaLink: "/projects/project-2/",
 		icon: Logo
 	},
 	{
