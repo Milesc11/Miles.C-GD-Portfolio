@@ -45,7 +45,7 @@ export const projects = [
 		techStack: "Adobe After Effects • Adobe Illustrator",
 		description: "4 short animations for the brand, Discord, using the animation principle, squash and stretch.",
 		ctaText: "Read Case Study →",
-		ctaLink: "#",
+		ctaLink: "/projects/project-5/",
 		icon: Logo
 	},
 	{
