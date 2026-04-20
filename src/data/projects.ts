@@ -29,7 +29,7 @@ export const projects = [
 		techStack: "Adobe Illustrator",
 		description: "Packaging design for One Piece themed NUMI tea boxes.",
 		ctaText: "Read Case Study →",
-		ctaLink: "#",
+		ctaLink: "/projects/project-3/",
 		icon: Logo
 	},
 	{
@@ -37,7 +37,7 @@ export const projects = [
 		techStack: "Adobe After Effects • Adobe Illustrator",
 		description: "An animation video coordinated with the accompanying music.",
 		ctaText: "Read Case Study →",
-		ctaLink: "#",
+		ctaLink: "/projects/project-4/",
 		icon: Logo
 	},
 	{
