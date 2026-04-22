@@ -53,7 +53,7 @@ export const projects = [
 		techStack: "Adobe InDesign • Adobe Illustrator",
 		description: "A coffee table book with cheese related articles.",
 		ctaText: "Read Case Study →",
-		ctaLink: "#",
+		ctaLink: "/projects/project-6/",
 		icon: Logo
 	},
 	{
@@ -61,7 +61,7 @@ export const projects = [
 		techStack: "Adobe InDesign",
 		description: "A typographic novel book design for the story, Shadows in the Moonlight.",
 		ctaText: "Read Case Study →",
-		ctaLink: "#",
+		ctaLink: "/projects/project-7/",
 		icon: Logo
 	},
 	{
@@ -69,7 +69,7 @@ export const projects = [
 		techStack: "Clip Studio Paint",
 		description: "A poster for New Paltz Smash Club’s Event, Sparx’s Sky Strike.",
 		ctaText: "Read Case Study →",
-		ctaLink: "#",
+		ctaLink: "/projects/project-8/",
 		icon: Logo
 	},
 	{
@@ -77,7 +77,7 @@ export const projects = [
 		techStack: "Clip Studio Paint",
 		description: "A graphic for New Paltz Smash Club’s Fall 2024 Student Power Rankings.",
 		ctaText: "Read Case Study →",
-		ctaLink: "#",
+		ctaLink: "/projects/project-9/",
 		icon: Logo
 	},
 	{
@@ -85,7 +85,7 @@ export const projects = [
 		techStack: "Clip Studio Paint",
 		description: "A graphic for New Paltz Smash Club’s Spring 2025 Power Rankings.",
 		ctaText: "Read Case Study →",
-		ctaLink: "#",
+		ctaLink: "/projects/project-10/",
 		icon: Logo
 	},
 	{
@@ -93,15 +93,15 @@ export const projects = [
 		techStack: "Clip Studio Paint",
 		description: "A graphic for New Paltz Smash Club’s Fall 2025 Power Rankings.",
 		ctaText: "Read Case Study →",
-		ctaLink: "#",
+		ctaLink: "/projects/project-11/",
 		icon: Logo
 	},
 	{
 		title: "Ultimate Fundraiser Stage List",
 		techStack: "Affinity",
-		description: "A graphic New Paltz Esports Association’s event, New Paltz Esports: The Ultimate Fundraiser!",
+		description: "A graphic for New Paltz Esports Association’s event, New Paltz Esports: The Ultimate Fundraiser!",
 		ctaText: "Read Case Study →",
-		ctaLink: "#",
+		ctaLink: "/projects/project-12/",
 		icon: Logo
 	},
 ];

@@ -1,0 +1,47 @@
+---
+import BaseHead from "/src/components/BaseHead.astro";
+import Header from "/src/components/sections/Header.astro";
+import Footer from "/src/components/sections/Footer.astro";
+import Projects from "/src/components/sections/Projects.astro";
+import HeroSection from "/src/components/sections/HeroSection.astro";
+import GlowLineSeparator from "/src/components/ui/separator/GlowLineSeparator.astro";
+---
+
+
+<html lang="en" data-theme="dark" class="dark">
+  <head>
+    <BaseHead title="Project 8" description="Selected projects and playbooks" />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <HeroSection title="NPSC Presents: Sparx's Sky Strike" subtitle="A poster for New Paltz Smash Club’s Event, Sparx’s Sky Strike." />
+      <GlowLineSeparator />
+      <div class="project-content">
+        <div class="hero-images">
+      <img src="/project-3-mockup-1.png" alt="Project 3 mockup 1">
+      <img src="/project-3-mockup-2.png" alt="Project 3 mockup 2">
+        </div>
+      <p>This design was created for my Typography class. We were tasked with creating a poster for the Pan-American Music Initiative Concerts, held in the Walt Disney Concert Hall. With this information, I believed that using the concert hall where the event was being held would make for a good background, so I rotated it so it could fully fit on the page.</p>
+      </div>
+      <GlowLineSeparator />
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+.hero-images{
+  max-width: max-content;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 0 3rem 0;
+  width: 45%; /* Optional: adjust as needed */
+}
+</style>
