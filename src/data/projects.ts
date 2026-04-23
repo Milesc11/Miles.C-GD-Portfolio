@@ -18,7 +18,7 @@ export const projects = [
 	},
 	{
 		title: "Laziness Decoded Magazine Spread",
-		techStack: "Adobe After Effects • Adobe Illustrator",
+		techStack: "Adobe InDesign • Adobe Illustrator",
 		description: "A magazine spread design on laziness decoded and how to be lazy.",
 		ctaText: "Read Case Study →",
 		ctaLink: "/projects/project-2/",
