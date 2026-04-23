@@ -9,21 +9,28 @@
 
 
 @font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-regular.woff") format("woff");
+	font-family: "Balthazar";
+	src: url("/fonts/Balthazar-Regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-bold.woff") format("woff");
+	font-family: "Volkhov";
+	src: url("/fonts/Volkhov-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mirage";
+	src: url("/fonts/Mirage final.woff") format("woff");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
 }
 body {
-	font-family: "Atkinson", sans-serif;
+	font-family: "Balthazar", serif;
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -53,13 +60,16 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
+	font-family: "Mirage", serif;
     font-size: 2.75em;
 }
 h2 {
+	font-family: "Volkhov", serif;
     font-size: 2.2em;
 }
 h3 {
-    font-size: 1.75em;
+	font-family: "Volkhov", serif;
+    font-size: 1.5em;
 }
 h4 {
     font-size: 1.4em;
