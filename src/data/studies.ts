@@ -1,29 +1,25 @@
 export const studies = [
   {
-    title: "B.S. in Computer Science",
-    institution: "State University",
+    title: "BFA in Graphic Design",
+    institution: "SUNY New Paltz",
     description:
-      "Core CS foundations: data structures, algorithms, operating systems, networking, and databases; team capstone in web systems.",
+      "Focus on learning different forms of design, typography, and design history.",
     tags: [
-      "Algorithms",
-      "Data Structures",
-      "Operating Systems",
-      "Databases",
-      "Networking",
+      "Graphic Design",
     ],
   },
-  {
-    title: "M.S. in Software Engineering",
-    institution: "Tech Institute",
-    description:
-      "Focus on distributed systems, testing strategies, and cloud architecture; thesis on resilience patterns in microservices.",
-    tags: [
-      "Distributed Systems",
-      "Cloud Architecture",
-      "Testing",
-      "Microservices",
-    ],
-  },
+  // {
+  //   title: "M.S. in Software Engineering",
+  //   institution: "Tech Institute",
+  //   description:
+  //     "Focus on distributed systems, testing strategies, and cloud architecture; thesis on resilience patterns in microservices.",
+  //   tags: [
+  //     "Distributed Systems",
+  //     "Cloud Architecture",
+  //     "Testing",
+  //     "Microservices",
+  //   ],
+  // },
 ];
 
 export type StudyItem = (typeof studies)[number];

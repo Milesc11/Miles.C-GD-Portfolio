@@ -5,7 +5,7 @@ interface Props { tools: LogoItem[]; speedMs?: number; }
 const { tools = [], speedMs = 100000 } = Astro.props as Props;
 ---
 
-<div class="overflow-hidden relative z-10 mx-auto px-8 py-4">
+<!-- <div class="overflow-hidden relative z-10 mx-auto px-8 py-4">
   <div class="[mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
     <div class="flex will-change-transform w-max translate-x-0" style={`animation: carousel-scroll ${speedMs}ms linear infinite`}>
       {[...tools, ...tools].map((tool) => (
@@ -18,7 +18,7 @@ const { tools = [], speedMs = 100000 } = Astro.props as Props;
       ))}
     </div>
   </div>
-</div>
+</div> -->
 
 <style>
 @keyframes carousel-scroll { 0% { transform: translateX(-20%); } 100% { transform: translateX(-70%); } }
