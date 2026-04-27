@@ -57,7 +57,7 @@ h5,
 h6 {
 	margin: 0 0 0.5rem 0;
 	color: rgb(var(--black));
-	line-height: 1.2;
+	line-height: 1.5;
 }
 h1 {
 	font-family: "Mirage", serif;
@@ -158,4 +158,9 @@ hr {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+
+.bg-clip-text{
+	padding-top:.25em;
+	padding-bottom:.25em;
 }
