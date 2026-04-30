@@ -18,15 +18,18 @@ import GlowLineSeparator from "/src/components/ui/separator/GlowLineSeparator.as
       <HeroSection title="Shadows in the Moonlight Novel Book" subtitle="A typographic novel book design for the story, Shadows in the Moonlight." />
       <GlowLineSeparator />
       <div class="project-content">
-        <div class="hero-images">
-      <img src="/project-7-start.png" alt="Project 7 start page">
-        </div>
+        <img src="/project-7-page-2.png" alt="Project 7 colophon">
+        <img src="/project-7-page-3.png" alt="Project 7 chapter 1"> 
+      </div>
+      <div class="hero-images">
+        <img src="/project-7-page-4.png" alt="Project 7 spread">
+        <img src="/project-7-start.png" alt="Project 7 start page">
+       </div>
       <p>This design was created for my Advanced Typography class. We were tasked with creating a novel book for a book of our choice.
         For this project, I chose the book, Shadows in the Moonlight.
         Unlike most of the previous projects I've worked, this one required the use of no imagery, focused entirely on the use of the type, the margins, and the grid layout.
         Similar to the coffee table project, we were required to print our spreads and turn them into a physical book, using coptic binding.
       </p>
-      </div>
       <GlowLineSeparator />
     </main>
     <Footer />
@@ -34,17 +37,26 @@ import GlowLineSeparator from "/src/components/ui/separator/GlowLineSeparator.as
 </html>
 
 <style>
-.hero-images{
+  .project-content{
   max-width: max-content;
   display: flex;
   flex-direction:row;
   flex-wrap: wrap;
   }
-img {
+  .project-content > img {
+  display: block;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 0 1rem 0;
+  width: 45%; /* Optional: adjust as needed */
+}
+.hero-images > img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem 0 3rem 0;
-  width: 75%; /* Optional: adjust as needed */
+  padding: 1rem 0 2rem 0;
+  width: 80%; /* Optional: adjust as needed */
 }
+
 </style>
