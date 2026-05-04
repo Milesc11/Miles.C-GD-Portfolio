@@ -1,0 +1,48 @@
+---
+import BaseHead from "/src/components/BaseHead.astro";
+import Header from "/src/components/sections/Header.astro";
+import Footer from "/src/components/sections/Footer.astro";
+import Projects from "/src/components/sections/Projects.astro";
+import HeroSection from "/src/components/sections/HeroSection.astro";
+import GlowLineSeparator from "/src/components/ui/separator/GlowLineSeparator.astro";
+---
+
+
+<html lang="en" data-theme="dark" class="dark">
+  <head>
+    <BaseHead title="Project 13: Communication Through Memes: Miles Makes Memes" description="Project 13/ Thesis Project" />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <HeroSection title="Communication Through Memes: Miles Makes Memes" subtitle="A graphic for New Paltz Esports Association’s event, New Paltz Esports: The Ultimate Fundraiser!" />
+      <GlowLineSeparator />
+      <div class="project-content">
+        <div class="hero-images">
+      <img src="/project-12-stagelist.jpg" alt="Project 12 stage list">
+        </div>
+      <p>This design was created for New Paltz Esports Association’s event, New Paltz Esports: The Ultimate Fundraiser!
+        The graphic was used to show the stage list for the Super Smash Bros. Ultimate tournament at the event, helping participants know which stage they were allowed to compete on, along with the rules and regulations for the tournament.
+        </p>
+      </div>
+      <GlowLineSeparator />
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+.hero-images{
+  max-width: max-content;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 0 3rem 0;
+  width: 75%; /* Optional: adjust as needed */
+}
+</style>
