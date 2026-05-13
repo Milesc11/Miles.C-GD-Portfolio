@@ -105,11 +105,11 @@ export const projects = [
 		icon: Logo
 	},
 	{
-		title: "Communication Through Memes: Miles Makes Memes",
+		title: "Communication Through Memes: Miles Makes Memes (Coming Soon)",
 		techStack: "Adobe Illustrator • Figma • Affinity",
 		description: "My thesis project on the use of memes as a form of communication as well as me making memes.",
 		ctaText: "Read Case Study →",
-		ctaLink: "/projects/project-13/",
+		// ctaLink: "/projects/project-13/",
 		icon: Logo
 	},
 ];
